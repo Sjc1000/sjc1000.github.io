@@ -6,17 +6,18 @@ html,body {
 	padding: 0px;
 }
 
-#header {
-	background-color: #E22;
+header {
+	background-color: #111;
 	position: absolute;
+	top: 0px;
+	height: 30px;
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	height: 5%;
 	border-bottom: 1px solid #900;
 	overflow: hidden;
 }
-#header img {
+header img {
 	position: absolute;
 	padding-top: 0.3%;
 	padding-left: 0.3%;
@@ -24,27 +25,25 @@ html,body {
 	height: 80%;
 	display: inline;
 }
-#header ul {
+header nav {
 	position: absolute;
-	top: -10px;
-	list-style: none;
+	padding-top: 5px;
 	right: 0px;
-	display: inline;
 	font-weight: bold;
 	cursor: default;
 }
-#header li {
-	display: inline;
+header p {
 	padding: 20px;
-	margin: 0px;
+	display: inline;
 }
-#header li:hover {
+header p:hover {
 	background-color: #A22;
 	color: #FFF;
 	cursor: pointer;
 }
 
-#footer {
+footer {
+	border-top: 2px solid #900;
 	position: absolute;
 	bottom: 0px;
 	height: 4em;
