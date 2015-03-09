@@ -48,6 +48,7 @@ header h1 {
 }
 
 .item {
+	position: static;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 30px;
@@ -62,10 +63,10 @@ header h1 {
 }
 
 .item p {
-	border-top: 1px solid #e00;
 	position: relative;
-	top: 10em;
+	border-top: 1px solid #e00;
 	padding-top: 1em;
+	top: 10em;
 	font-size: 1em;
 	transition: top 1s ease-in-out 0s;
 }
@@ -117,11 +118,4 @@ footer {
 	height: 4em;
 	background-color: #000;
 	text-align: center;
-}
-
-@media all and (max-width: 768px) {
-	.item p {
-		font-size: 0.5em;
-		top: 15em;
-	}
 }
