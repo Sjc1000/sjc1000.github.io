@@ -62,11 +62,12 @@ header h1 {
 }
 
 .item p {
-	border-top: 1px solid #500;
+	border-top: 1px solid #e00;
 	position: relative;
-	top: 5em;
+	bottom: -8em;
 	padding-top: 1em;
-	transition: top 1s ease-in-out 0s;
+	font-size: 1em;
+	transition: bottom 1s ease-in-out 0s;
 }
 
 .item:hover {
@@ -84,8 +85,8 @@ header h1 {
 }
 
 .item:hover p {
-	top: 0em;
-	transition: top 0.5s ease-in-out 0.5s;
+	bottom: 0em;
+	transition: bottom 0.5s ease-in-out 0.5s;
 }
 
 .item a {
