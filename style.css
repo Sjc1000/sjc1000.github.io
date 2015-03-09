@@ -72,22 +72,22 @@ footer {
 
 .item:hover a {
 	color: #700;
-	transition: color 0.5s ease-in-out 1s;
+	transition: color 0.5s ease-in-out 0.5s;
 }
 
 .item:hover h2 {
 	color: #EEE;
-	transition: color 0.5s ease-in-out 1s;
+	transition: color 0.5s ease-in-out 0.5s;
 }
 
 .item a {
 	color: #EEE;
 	text-decoration: none;
-	transition: color 0.5s ease-in-out 0.5s;
+	transition: color 0.5s ease-in-out 1s;
 }
 
 .item h2 {
-	transition: color 0.5s ease-in-out 0.5s;
+	transition: color 0.5s ease-in-out 1s;
 	display: inline-block;
 	color: #444;
 }
@@ -97,11 +97,11 @@ footer {
 	color: #000;
 	border-top: 1px solid #000;
 	padding-top: 1em;
-	transition: all 0.5s ease-in-out 0.5s;
+	transition: all 0.5s ease-in-out 1s;
 }
 
 .item:hover p {
 	color: #FFF;
 	border-top: 1px solid #E00;
-	transition: all 0.5s ease-in-out 1s;
+	transition: all 0.5s ease-in-out 0.5s;
 }
