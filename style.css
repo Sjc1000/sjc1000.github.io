@@ -107,6 +107,14 @@ header {
     text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 header {
     transition: all 1s ease-in;
     position: fixed;
