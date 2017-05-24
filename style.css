@@ -181,3 +181,20 @@ footer {
     font-family: 'Source Code Pro', sans-serif;
 }
 
+
+@media only screen and (max-width: 600px) {
+    #header #navbar a {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    #header #navbar {
+        margin-top: 4em;
+        left: 0em;
+    }
+    #content {
+        margin-top: 25em;
+    }
+}
